@@ -1,0 +1,259 @@
+/**
+ * General elements
+ */
+
+@import url(figure.css);
+@import url(form.css);
+@import url(navbar_me.css);
+@import url(question.css);
+@import url(tags.css);
+@import url(profil.css);
+
+html, * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #222222;
+  margin: 0 auto;
+  color: #ff6710;
+  font-family: 'Roboto Slab', sans-serif;
+  /*font-size: 1em;*/
+  overflow-y: scroll;
+}
+
+body p {
+    width:55%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+a {
+  color: #ff6710;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+   cursor: pointer;
+}
+
+a:hover {
+    color: #CF530D;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    padding: 7px 0;
+}
+h1 {font-size: 1.5em; padding: 20px 0; font-family: 'Roboto Slab', sans-serif;}
+h2 {font-size: 1.35em;}
+h3 {font-size: 1.2em;}
+h4 {font-size: 1.0em;}
+h5 {font-size: 0.8em;}
+h6 {font-size: 0.7em;}
+
+hr {
+  color: #ddd;
+  background-color: #ddd;
+  border: 1px solid #ddd;
+ display: block;
+ margin: 30px 0;
+  width: 500px;
+  text-align: center;
+}
+
+.left {float: left;}
+.right {float: right;}
+.clear {clear: both;}
+
+#header-section {
+  background: #141414;
+  height: 75px;
+  width: 100%;
+}
+
+#header-section #header-wrapper {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 0 100px;
+  height: 75px;
+}
+
+#header-section header {
+font-family: 'Roboto Slab', sans-serif;
+  float: left;
+  line-height: 75px;
+}
+#header-section header small {
+  color: #fff;
+  font-size: 12px;
+}
+
+#header-section big {
+    margin-left: 280px;
+}
+
+
+
+
+#main-section {
+  max-width: 1090px;
+  margin: 0 auto;
+  min-height: 720px;
+  padding: 80px 100px;
+}
+
+
+
+#main-section-split .article1 {
+  width: 60%;
+  border: 0px solid #ddd;
+  margin-top: 0px;
+  padding: 0px 60px;
+  background: #fff;
+  border-radius: 5px 5px 0 0;
+  line-height: 170%;
+}
+
+#main-section .article1 {
+  width: 100%;
+  border: 0px solid #ddd;
+  margin-top: 0px;
+  padding: 0px 60px;
+  background: #222222;
+  border-radius: 5px 5px 0 0;
+  line-height: 170%;
+}
+
+#main-section .article1 p {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+#main-section .article1 code {
+  background: #eee;
+  padding: 5px;
+}
+
+#main-section .article1 .left {
+    float: left;
+    width: 60%;
+}
+
+blockquote {
+  background: #fafafa;
+  border: 1px solid #eee;
+  /*background: #E6E600; */
+  padding: 30px 30px 30px 90px;
+  margin: 20px;
+  position: relative;
+  line-height: 170%;
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+blockquote::before {
+  content: "”";
+  display: block;
+  left: 0;
+  top: 0;
+  padding: 70px 20px;
+  color: #ca2017;
+  font-size: 8em;
+  position: absolute;
+  text-align: center;
+  font-family: Georgia;
+  font-style: normal;
+}
+
+
+#footer-section {
+  width: 100%;
+  background: #141414;
+  height: 50px;
+}
+
+#footer-section footer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 100px;
+  line-height: 50px;
+  font-family: 'Roboto Slab', sans-serif;
+  color: #ff6710;
+  text-align: center;
+  font-size: 12px;
+}
+
+#footer-section .left, #footer-section .right {
+  width: 300px;
+}
+
+#footer-section footer a {
+    color: #ff6710;
+    text-decoration: underline;
+}
+
+#footer-section .left {
+  text-align: left;
+}
+#footer-section .right {
+  text-align: right;
+
+}
+
+#footer-section a {
+  color: #ff6710;
+}
+
+#footer-section a:hover {
+  color: #CF530D;
+}
+
+#widget {
+    margin: 20px 0;
+}
+
+#widget ul {
+    background: #555;
+    border: 1px solid #ff6710;
+    padding: 5px;
+}
+
+#widget li {
+    list-style: none;
+    padding: 5px;
+    border-bottom: 1px solid #ff6710;
+}
+
+#widget li .by {
+    font-size: 11px;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+#widget i {
+    margin-left: 10px;
+    color: #ff6710;
+}
+
+#widget .answercount {
+    max-width: 2em;
+    font-size: 11px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1em;
+    text-align: center;
+    margin-right: 1em;
+}
+
+#widget .left {
+    max-width: 600px;
+}
+
+#widget .right {
+    max-width: 350px;
+}

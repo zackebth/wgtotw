@@ -1,0 +1,171 @@
+/**
+ * Style for forms
+ */
+
+
+.comment-form, .comments {
+	background: #222;
+	max-width: 100%;
+	border-top: 0;
+	display: block;
+	margin: 0;
+}
+
+.comments {
+	max-width: 100%;
+	background: #fff;
+}
+
+.comments .comment {
+	border: 1px solid #ddd;
+	background: #fff;
+	max-width: 100%;
+	margin-bottom: 10px;
+	padding: 25px 20px;
+	color: #000;
+}
+.comments .comment .name {
+	color: #ca2017;
+	float: left;
+}
+
+.comments .comment .date {
+	color: #9b9b9b;
+	float: right;
+	font-size: 0.8em;
+}
+
+.comments .comment .content {
+	margin: 10px 0;
+}
+
+.comment-form fieldset {
+	border: 0;
+}
+
+.comment-form label {
+	color: #fff;
+	display: block;
+}
+
+.comment-form a {
+	color: #ff6710;
+}
+
+.comment-form a:hover {
+	color: #CF530D;
+}
+
+.comment-form legend .small {
+	color: #b1b1b1;
+  font-size: 12px;
+}
+
+.comment-form input, .comment-form textarea {
+	background: #fafafa;
+	border: 1px solid #eee;
+	padding: 18px;
+	border-radius: 3px;
+	margin: 10px 0;
+	margin-right: 10px;
+	display: block;
+	box-sizing: border-box;
+	font-size: 1rem;
+}
+
+
+.comment-form .name {
+	width: 47.5%;
+	display: block;
+	float: left;
+}
+.comment-form .web {
+	float: right;
+	width: 47.5%;
+	display: block;
+}
+
+.comment-form .name input, .comment-form .web input {
+	width: 100%;
+	display: block;
+}
+
+.comment-form .email, .comment-form textarea  {
+	width: 100%;
+}
+.comment-form textarea {
+	min-height: 200px;
+	font-size: 1rem;
+}
+
+.comment-form legend {
+	color: #000;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	font-size: 1.3em;
+	border-bottom: 1px solid #ddd;
+	width: 100%;
+}
+
+.comment-form .buttons input {
+	background: #353E49;
+	font-weight: bold;
+	color: #fafafa;
+	padding: 16px 30px;
+	display: inline-block;
+	border-radius: 5px;
+}
+.comment-form .buttons input:hover {
+	background: #ca2017;
+}
+
+.comment-form .user-form .acronym {
+	width: 47.5%;
+	display: block;
+	float: left;
+}
+.comment-form .user-form .name {
+	float: right;
+	width: 47.5%;
+	display: block;
+}
+
+
+.comment-form .user-form label {
+	padding: 0;
+	margin: 0;
+}
+
+.comment-form .user-form br {
+	display: block;
+   margin: 5px 0;
+}
+
+.comment-form .user-form input {
+	width: 60%;
+	display: block;
+	float: none;
+}
+
+.comment-form .user-form input[type="checkbox"] {
+	width: 5%;
+}
+
+.comment-form .user-form .buttonbar input {
+	width: 20%;
+	display: inline;
+	cursor: pointer;
+}
+.comment-form .user-form .buttonbar input:hover {
+	background-color: #eee;
+}
+
+.comment-form .user-form label[for="form-element-active"], .comment-form .user-form #form-element-active  {
+	display: inline;
+
+}
+
+.user-active {color: green;}
+.user-inactive {color: grey;}
+.user-deleted {color: red;}
+.textcenter {text-align: center;}

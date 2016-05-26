@@ -1,0 +1,33 @@
+#tags-section {
+    font-family: Calibri;
+}
+
+#tags-section .top {
+    margin-bottom: 20px;
+}
+
+.tag {
+    background-color: #555;
+    border: 1px solid #ff6710;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    min-height: 140px;
+    width: 250px;
+}
+
+.tag .tags {
+    padding: 10px;
+
+}
+
+.tag .tags a, .tags a {
+    font-size: 0.75em;
+    background: #333;
+    padding: 2px 6px;
+    margin-right: 5px;
+}
+
+.tag .content {
+    padding: 5px 10px;
+    font-size: 0.75em;
+}

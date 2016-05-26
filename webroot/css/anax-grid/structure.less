@@ -1,0 +1,61 @@
+#header,
+nav,
+#flash{
+    .column(@columns);
+    margin-bottom: 22px;
+    background: #ddd;
+}
+
+
+#main {
+    .column(@columns / 3 * 2);
+    margin-bottom: 22px;
+    padding: 22px 0;
+       
+}
+ 
+#sidebar {
+    .column(@columns / 3);
+    margin-bottom: 22px;
+    background: #ddd;
+}
+ 
+#featured-1,
+#featured-2,
+#featured-3,
+#copy-col-1,
+#copy-col-2,
+#copy-col-3,
+#triptych-1,
+#triptych-2,
+#triptych-3 {
+    .column(@columns / 3);
+    margin-bottom: 22px;
+    background: #ddd;
+}
+ 
+#footer-col-1,
+#footer-col-2,
+#footer-col-3, 
+#footer-col-4 {
+    .column(@columns / 4);
+    margin-bottom: 22px;
+    background: #ddd;
+}
+#wrap-featured,
+#wrap-main,
+footer,
+#wrap-triptych,
+#wrap-footer-col {
+    .clearfix();
+}
+
+/*
+The grid wrapper
+*/
+
+#grid-wrapper {
+   background-image: url(grid-bg.png);
+   max-width: 960px;
+   margin: 0 auto;
+}
